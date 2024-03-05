@@ -1,0 +1,39 @@
+.footer {
+    padding: 2rem 0 1rem 0;
+    color: var(--text-color-secondary);
+    position: fixed;
+    bottom: 3rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.footer::after{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    content: '';
+    position: absolute;
+    width: 110%;
+    height: 110%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    border-radius: 10px;
+}
+  
+.padding-all-16 {
+    padding: 0;
+    padding-top: 8px;
+}
+
+.logo-img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+  
